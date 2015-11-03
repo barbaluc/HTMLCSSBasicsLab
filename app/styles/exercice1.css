@@ -1,5 +1,9 @@
 .blocks {
+  -ms-transform:rotate(30deg); 
+  -moz-transform:rotate(30deg);
   -webkit-transform:rotate(30deg);
+  -o-transform:rotate(30deg);
+
   transform-origin: 20% 40%;
   /*transform-origin:40% 80%;*/
 
@@ -15,30 +19,30 @@
 }
 
 #one {
-  -ms-transform:rotate(0deg) translate(0px); 
-  -moz-transform:rotate(0deg) translate(0px);
-  -webkit-transform:rotate(0deg) translate(250px, 200px);
-  -o-transform:rotate(90deg) translate(0px);
+  -ms-transform:translate(250px, 200px); 
+  -moz-transform:translate(250px, 200px);
+  -webkit-transform:translate(250px, 200px);
+  -o-transform:translate(250px, 200px);
 }
 
 #two {
-  -ms-transform:rotate(90deg) translate(); 
-  -moz-transform:rotate(90deg) translate();
+  -ms-transform:rotate(90deg) translate(200px, -150px); 
+  -moz-transform:rotate(90deg) translate(200px, -150px);
   -webkit-transform:rotate(90deg) translate(200px, -150px);
-  -o-transform:rotate(90deg) translate();
+  -o-transform:rotate(90deg) translate(200px, -150px);
 }
 
 #three {
-  -ms-transform:rotate(180deg) translate();
-  -moz-transform:rotate(180deg) translate();
-  -webkit-transform:rotate(180deg) translate(-50px, 0px);
-  -o-transform:rotate(180deg) translate();
+  -ms-transform:rotate(180deg) translate(-50px);
+  -moz-transform:rotate(180deg) translate(-50px);
+  -webkit-transform:rotate(180deg) translate(-50px);
+  -o-transform:rotate(180deg) translate(-50px);
 }
 
 #four {
-  -ms-transform:rotate(270deg) translate();
-  -moz-transform:rotate(270deg) translate();
+  -ms-transform:rotate(270deg) translate(200px, 150px);
+  -moz-transform:rotate(270deg) translate(200px, 150px);
   -webkit-transform:rotate(270deg) translate(200px, 150px);
-  -o-transform:rotate(270deg) translate();
+  -o-transform:rotate(270deg) translate(200px, 150px);
 }
 
