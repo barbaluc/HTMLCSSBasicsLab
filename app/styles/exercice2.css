@@ -1,0 +1,18 @@
+/**
+ * Created by Lucas on 04/11/15.
+ */
+
+#diag {
+  -ms-transform:rotate(270deg); 
+  -moz-transform:rotate(270deg);
+  -webkit-transform:rotate(270deg);
+  -o-transform:rotate(270deg);
+
+  transform-origin: 300px 300px;
+}
+
+
+div span {
+	position:absolute;
+	left:125px;
+}
