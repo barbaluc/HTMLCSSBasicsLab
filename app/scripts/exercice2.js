@@ -12,7 +12,6 @@ $(function() {
 		//28 taille des lettres, 80 hauteur à décaler et 5 la taille des margin
 		var top = 30 + 80 * i + 5 * i;
 		$("#span"+names[i]).css("top", top + "px");
-		//alert(80 - $("#span"+names[i]).height())
 	}
  	
 });
